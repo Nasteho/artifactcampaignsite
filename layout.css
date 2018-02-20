@@ -24,8 +24,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -58,7 +56,6 @@ li {
 --------------------------------------------------------*/
 
 body{
-	background-image: url(black_texture_landing22.jpg);
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -100,13 +97,9 @@ h4 {
 	font-weight:normal;
 	font-size: 40px;
 	text-align: center;
-	color: #FFA34B;
+	color: white;
   margin-left: auto;
 	padding-top: 350px;
-}
-
-#slogan {
-	text-align: center;
 }
 
 p {
@@ -209,7 +202,7 @@ a:active {
 	color: #2b2b2b;
 	height: 1000px;
 	margin: 0;
-	background:url(images/black_texture_landing22.jpg); 
+	background:url(images/blackbackground.jpg);
 	background-size: cover;
 
 	z-index:-100;
@@ -219,6 +212,7 @@ a:active {
 #slide2{
 	width: 100%;
 	background-image: url(images/black_texture_landing.jpg);
+	background-size: cover;
 	color: #f4f4c7;
 	overflow: hidden;
 	padding: 100px 25px;
