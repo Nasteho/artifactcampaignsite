@@ -150,6 +150,7 @@ a:active {
 	background-color:#FFA34B;
 	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
 	z-index: 1;
+  opacity: 0.0
 }
 
 
