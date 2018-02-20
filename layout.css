@@ -1,5 +1,5 @@
-/* CSS reset - 'Resetter' alle browseres css, så det kun er ens eget, der bliver vist */
-html, body, div, span, applet, object, iframe,
+//* CSS reset - 'Resetter' alle browseres css, så det kun er ens eget, der bliver vist */
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+} -->
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -198,7 +198,7 @@ a:active {
 --------------------------------------------------------*/
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 80%; vertical-align:middle;}
-.contentform{ margin: 0 auto; width: 85%; }
+.contentform{ margin: 0 auto; }
 .contentform1{ margin: 0 auto; margin-left: 10px; width: 100%; }
 .clear { clear: both; }
 
@@ -209,7 +209,7 @@ a:active {
 	color: #2b2b2b;
 	height: 1000px;
 	margin: 0;
-	background:url(images/black.png) no-repeat fixed;
+	background:url(images/black_texture_landing22.jpg); 
 	background-size: cover;
 
 	z-index:-100;
@@ -218,13 +218,15 @@ a:active {
 
 #slide2{
 	width: 100%;
-	background-color: #FFA34B;
+	background-image: url(images/black_texture_landing.jpg);
 	color: #f4f4c7;
-	height: auto;
-	margin: 0 auto;
 	overflow: hidden;
-	padding: 100px 0;
+	padding: 100px 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 
 #slide3{
 	background-color:#4D4D4D;
