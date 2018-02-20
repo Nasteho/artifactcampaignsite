@@ -1,4 +1,4 @@
 body  {
-    background-image: url("black_texture_landing22.jpg");
-  
+    background-image: src=image("black_texture_landing22.jpg");
+
 }
