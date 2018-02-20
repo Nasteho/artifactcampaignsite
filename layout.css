@@ -58,7 +58,7 @@ li {
 --------------------------------------------------------*/
 
 body{
-	background-image: image(black_texture_landing22.jpg);
+	background-image: url(black_texture_landing22.jpg);
 	margin: 0;
 	padding: 0;
 	width: 100%;
