@@ -1,4 +1,361 @@
-body  {
-    background-image: src=image("black_texture_landing22.jpg");
+/* CSS reset - 'Resetter' alle browseres css, så det kun er ens eget, der bliver vist */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END CSS reset */
+
+/* FONT EMBEDDES */
+@font-face {
+	font-family:"1952 RHEINMETALL";
+	src:url('1952 RHEINMETALL.ttf');
+	}
+li {
+	font-family:"1952 RHEINMETALL";
+	}
+
+
+/*= GENEREL STYLING
+--------------------------------------------------------*/
+
+body{
+	background-color:#4D4D4D;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+h1 {
+    font-family:"1952 RHEINMETALL";
+	font-weight:normal;
+	font-size: 70px;
+	text-align: left;
+	color: #FFA34B;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family:"1952 RHEINMETALL";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: left;
+   color: #4D4D4D;
+   margin: 0;
+	padding: 0;
+}
+
+h3 {
+   font-family:"1952 RHEINMETALL";
+   font-weight: normal;
+   font-size: 40px;
+   text-align: left;
+   color: #FFA34B;
+   margin: 0;
+	padding: 0;
+}
+
+h4 {
+    font-family:"1952 RHEINMETALL";
+	font-weight:normal;
+	font-size: 70px;
+	text-align: center;
+	color: #FFA34B;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "1952 RHEINMETALL";
+	font-weight:normal;
+	font-size:22px;
+	text-align:left;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFA34B;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFA34B;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2D2D2D;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #2D2D2D;
+	text-decoration: underline;
+}
+
+
+/* MENU */
+
+#menubar {
+	position: fixed;
+	width:100%;
+	height: 100px;
+	margin:0px auto;
+	margin-top: 0px;
+	text-align:left;
+	padding:15px;
+	background-color:#FFA34B;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+
+#navwrap {
+	position:fixed;
+	float: right;
+	width:100%;
+	top: 2%;
+	right: 1%;
+	}
+
+  nav {
+      float: right;
+      max-width: 50%;
+      margin: 0;
+      padding: 1em;
+  }
+
+  nav ul {
+      list-style-type: none;
+      padding-top: 8%;
+	  display: flex;
+  }
+
+  nav ul a {
+      text-decoration: none;
+  }
+
+#menustyle li {
+  background:#FFA34B;
+  padding: 0 4% 0 4%;
+}
+
+#menustyle li:hover {
+  border-bottom: solid 10px #FFA34B;
+  padding: 1% 4% 0 4%;
+}
+
+/* MENU SLUT */
+
+.danichan {
+    position: absolute;
+    z-index: 1;
+    left: 10;
+    top: 10;
+    height: 100px;
+}
+
+/*= containers
+--------------------------------------------------------*/
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 80%; vertical-align:middle;}
+.contentform{ margin: 0 auto; width: 85%; }
+.contentform1{ margin: 0 auto; margin-left: 10px; width: 100%; }
+.clear { clear: both; }
+
+/*= SLIDES FRONTPAGE (de forskellige sider)
+--------------------------------------------------------*/
+#slide1{
+	width: 100%;
+	color: #2b2b2b;
+	height: 1000px;
+	margin: 0;
+	background:url(pic/CofefeV2.png) no-repeat fixed;
+	background-size: cover;
+	z-index:-100;
+}
+
+
+#slide2{
+	width: 100%;
+	background-color: #FFA34B;
+	color: #f4f4c7;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0;
+}
+
+#slide3{
+	background-color:#4D4D4D;
+	height: 250px;
+	margin: 0 auto;
 
 }
+
+#slide4{
+	width: 120%;
+	color: #2b2b2b;
+	height: auto;
+	margin: 0;
+	background-size: cover;
+	z-index:-100;
+}
+
+.footer {
+   margin-bottom: auto;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:"4D4D4D";
+   color: #FFA34B;
+   text-align: center;
+	font-family:"1952 RHEINMETALL";
+	padding:5px;
+}
+
+.box{
+	width:55%;
+	height:auto;
+	padding:50px;
+	margin-right: auto;
+    margin-top: auto;
+}
+
+.box2{
+	width:45%;
+	height:auto;
+	padding:100px;
+	margin-left: auto;
+    margin-right: auto;
+	vertical-align: middle;
+}
+
+.box3{
+	width:45%;
+	height:auto;
+	padding:300px;
+	margin-left: auto;
+    margin-right: auto;
+	vertical-align: middle;
+}
+
+.column {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	 -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+h2 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
+
+.row {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+/* HOVER EFFECT */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: inline;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #4D4D4D;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color:#FFA34B;
+	font-family: "1952 RHEINMETALL";
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* ----------- */
+
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+img.inline {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+	}
