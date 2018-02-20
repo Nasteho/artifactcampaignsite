@@ -101,7 +101,7 @@ h4 {
 	font-size: 40px;
 	text-align: center;
 	color: #FFA34B;
-	margin: 0;
+  margin-left: auto;
 	padding-top: 350px;
 }
 
@@ -147,8 +147,7 @@ a:active {
 	margin-top: 0px;
 	text-align:left;
 	padding:15px;
-	background-color:#FFA34B;
-	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+
 	z-index: 1;
 
 }
@@ -179,15 +178,7 @@ a:active {
       text-decoration: none;
   }
 
-#menustyle li {
-  background:#FFA34B;
-  padding: 0 4% 0 4%;
-}
 
-#menustyle li:hover {
-  border-bottom: solid 10px #FFA34B;
-  padding: 1% 4% 0 4%;
-}
 
 /* MENU SLUT */
 
