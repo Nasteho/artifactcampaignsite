@@ -98,11 +98,11 @@ h3 {
 h4 {
     font-family:"Roboto-Regular";
 	font-weight:normal;
-	font-size: 70px;
+	font-size: 60px;
 	text-align: center;
 	color: #FFA34B;
 	margin: 0;
-	padding: 0;
+	padding-top: 50px;
 }
 
 p {
