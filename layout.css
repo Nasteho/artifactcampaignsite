@@ -105,6 +105,10 @@ h4 {
 	padding-top: 350px;
 }
 
+#slogan {
+	text-align: center;
+}
+
 p {
 	font-family: "Roboto-Regular";
 	font-weight:normal;
@@ -259,12 +263,17 @@ a:active {
 }
 
 .box2{
-	width:45%;
+	width:100%;
 	height:auto;
 	padding:100px;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	vertical-align: middle;
+
+}
+.box2 iframe {
+display: flex;
+align-items: center;
 }
 
 .box3{
