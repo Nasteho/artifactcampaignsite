@@ -94,15 +94,15 @@ h3 {
 	font-size: 40px;
 	text-align: center;
 	color: white;
-	padding-top: 150px;
+	padding-top: 250px;
 	margin: 0;
 }
 
 #arrow{
 	text-align: center;
-	padding-bottom: 357px;
+	padding-bottom: 293px;
 	margin: 0;
-	padding-top: 60px
+	padding-top: 30px
 }
 
 p {
@@ -219,7 +219,7 @@ a:active {
 	background-repeat: no-repeat;
 	color: #f4f4c7;
 	overflow: hidden;
-	padding: 100px 25px;
+	padding: 100px 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -242,18 +242,26 @@ a:active {
 	z-index:-100;
 }
 
-.footer {
-   margin-bottom: auto;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color:"4D4D4D";
-   color: #FFA34B;
-   text-align: center;
-	font-family:"1952 RHEINMETALL";
-	padding:5px;
+#contact{
+	display: flex;
+  flex-direction: row;
+	background: grey;
 }
 
+#contact a {
+	text-decoration: none;
+	font-family: 'Roboto-Regular',sans-serif;
+	padding: 0 20px;
+	color: white;
+}
+
+#contact img {
+	padding: 20px;
+}
+
+#mail {
+	vertical-align: middle;
+}
 
 .box3{
 	width:45%;
@@ -278,11 +286,6 @@ h2 {
     column-span: all;
 }
 
-.row {
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}
 
 /* HOVER EFFECT */
 .container {
@@ -314,19 +317,6 @@ h2 {
   opacity: 1;
 }
 
-.text {
-  color:#FFA34B;
-	font-family: "1952 RHEINMETALL";
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* ----------- */
 
 
 img.displayed {
