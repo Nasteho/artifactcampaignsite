@@ -86,7 +86,18 @@ h3 {
    color: #FFA34B;
    margin: 0;
 	padding: 0;
-}
+
+  }
+
+  p {
+    font-family:"Roboto-Regular";
+    font-weight: normal;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    margin: 0;
+ 	padding: 0;
+  }
 
 #slogan {
     font-family:"Roboto-Regular";
